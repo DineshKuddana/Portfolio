@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <!-- Toggle Button -->
+        <div class="navbar-toggle" id="navbar-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        <div class="name"><a href="#">DSP Coder</a></div>
+
+        <ul class="nav-list" id="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <p class="intro">Hello, I'm</p>
+            <h1 class="name">Dinesh Kuddana</h1>
+            <p class="role">
+                A <span class="highlight">Full Stack Web Developer</span>
+            </p>
+            <a href="https://drive.google.com/file/d/13WTKxE-N9sadfQu_JxIwyrEvFc5ScXFg/view?usp=sharing" target="_blank"
+                class="hire-me">Hire me</a>
+        </div>
+        <div class="home-image">
+            <img src="images/dd.jpg" alt="Kuddana Dinesh" class="profile-image">
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="images/prf1.jpg" alt="Kuddana Dinesh">
+            </div>
+            <div class="about-text">
+                <h1>About Me</h1>
+                <p>
+                    Welcome to my corner of the web! I'm Kuddana Dinesh, a passionate front-end developer with a flair
+                    for creating captivating and user-friendly interfaces. My journey in web development is driven by a
+                    commitment to innovation and a love for clean, elegant code. I specialize in the MERN stack—MongoDB,
+                    Express.js, React.js, and Node.js—and am proficient in Python for Data Structures and Algorithms
+                    (DSA), which allows me to tackle complex problems with effective solutions.</p><br>
+                <p>Currently, as a Software Developer Intern at Green Code Software Private Limited, I am working on the
+                    Errsole product. My responsibilities include researching and learning about various programming
+                    topics, building projects from scratch to production-ready, and being involved in all stages of the
+                    product, from coding to outreach. I primarily use JavaScript, Node.js, and Express.js for
+                    development, collaborating closely with the team to deliver effective and efficient solutions.
+                </p>
+            </div>
+        </div>
+
+        <!-- Tab Buttons -->
+        <div class="tab-buttons">
+            <button class="tab-btn active" onclick="openTab('education')"><i class="fas fa-graduation-cap"></i>
+                Education</button>
+            <button class="tab-btn" onclick="openTab('experience')"><i class="fas fa-briefcase"></i> Experience</button>
+        </div>
+
+        <!-- Tab Content -->
+        <div class="tab-content-container">
+            <!-- Education Section -->
+            <div id="education" class="tab-content active">
+                <div class="education-container">
+                    <div class="education-item">
+                        <i class="fas fa-university"></i>
+                        <div>
+                            <h3>B.Tech in Computer Science and Engineering</h3>
+                            <p>JNTUACEA | 2021 - 2025</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience Section -->
+            <div id="experience" class="tab-content">
+                <div class="timeline">
+                    <!-- Experience Item 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Software Developer Intern</h3>
+                            <h4>Errsole</h4>
+                            <p>August 2024 - Present</p><br>
+                            <p>As a Software Developer Intern at Green Code Software, I work on Errsole, focusing on
+                                end-to-end development with JavaScript, Node.js, and Express.js, from initial research
+                                to production.</p>
+                        </div>
+                    </div>
+                    <!-- Experience Item 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Full Stack Web Developer Intern</h3>
+                            <h4>Docplus (SHMT)</h4>
+                            <p>June 2024</p><br>
+                            <p>As a Full Stack Web Developer Intern at SHMT (Docplus), I built MERN stack applications,
+                                developed backend APIs with Node.js, and deployed solutions on Digital Ocean and
+                                Microsoft Azure.</p>
+                        </div>
+                    </div>
+                    <!-- Experience Item 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Web Developer Intern</h3>
+                            <h4>WellTech Lapz</h4>
+                            <p>March 2024</p><br>
+                            <p>At WellTechLapz, I build custom websites from scratch using HTML, CSS, and JavaScript,
+                                focusing on design, user experience, and cloud hosting with AWS, Kamatera, and Render.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Experience Item 4 -->
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Website Developer Intern</h3>
+                            <h4>Ravik Foundation</h4>
+                            <p>Jan 2024</p><br>
+                            <p>Maintained an E-learning platform, optimizing performance, accessibility, and user
+                                experience and SEO.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <h1>My Skills</h1>
+
+        <!-- Skills Section -->
+        <div class="skills-container">
+            <!-- Front-End Development -->
+            <div class="skills-category">
+                <h2>🖥️ Front-End Development</h2>
+                <div class="skills-list">
+                    <div class="skills-column">
+                        <span><i class="fab fa-html5"></i> HTML</span>
+                        <span><i class="fab fa-css3-alt"></i> CSS</span>
+                        <span><i class="fab fa-js-square"></i> JavaScript</span>
+                    </div>
+                    <div class="skills-column">
+                        <span><i class="fab fa-react"></i> React JS</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Back-End Development -->
+            <div class="skills-category">
+                <h2>🔧 Back-End Development</h2>
+                <div class="skills-list">
+                    <div class="skills-column">
+                        <span><i class="fab fa-node-js"></i> Node.js</span>
+                        <span><i class="fas fa-link"></i> Express.js</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Database Management -->
+            <div class="skills-category">
+                <h2>💾 Database Management</h2>
+                <div class="skills-list">
+                    <div class="skills-column">
+                        <span><i class="fas fa-database"></i> SQL</span>
+                        <span><i class="fas fa-leaf"></i> MongoDB</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Programming Languages -->
+            <div class="skills-category">
+                <h2>📜 Programming Languages</h2>
+                <div class="skills-list">
+                    <div class="skills-column">
+                        <span><i class="fab fa-python"></i> Python</span>
+                        <span><i class="fab fa-java"></i> Java</span>
+                        <span><i class="fab fa-c"></i> C</span>
+                    </div>
+                    <div class="skills-column">
+                        <span><i class="fas fa-project-diagram"></i> DSA</span>
+                        <span><i class="fas fa-sitemap"></i> OOPs</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Version Control -->
+            <div class="skills-category">
+                <h2>🛠️ Version Control</h2>
+                <div class="skills-list">
+                    <div class="skills-column">
+                        <span><i class="fab fa-git-alt"></i> Git</span>
+                        <span><i class="fab fa-github"></i> GitHub</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- API Testing -->
+            <div class="skills-category">
+                <h2>🧪 API Testing & Development</h2>
+                <div class="skills-list">
+                    <div class="skills-column">
+                        <span><i class="fas fa-envelope"></i> Postman</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Deployment -->
+            <div class="skills-category">
+                <h2>🚀 Deployment</h2>
+                <div class="skills-list">
+                    <div class="skills-column">
+                        <span><i class="fab fa-microsoft"></i> Microsoft Azure</span>
+                        <span><i class="fas fa-water"></i> Digital Ocean</span>
+                        <span><i class="fab fa-aws"></i> AWS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Projects Section-->
+    <section id="projects" class="projects-section">
+        <h1>Projects</h1>
+        <div class="projects-content">
+
+            <!--Project Card 1-->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/jan.png" alt="Project 1">
+                    <div class="project-overlay">
+                        <div class="project-details">
+                            <h3>JANews</h3>
+                            <p>Welcome to the JNTUACEA News Hub, a dynamic platform meticulously crafted by "The Vision"
+                                team during a remarkable 36-hour hackathon. This is a small Newspaper Website in which
+                                it
+                                contains the daily updates regarding our JNTUACEA College information like Results,
+                                Scholarships, Events...</p>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://dineshkuddana.github.io/JANews/" target="_blank" class="live-link">Live</a>
+                            <a href="https://github.com/DineshKuddana/JANews" target="_blank"
+                                class="github-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Project Card 2-->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/startup.png" alt="Project 2">
+                    <div class="project-overlay">
+                        <div class="project-details">
+                            <h3>Recruitment-StartUp</h3>
+                            <p>A home page for a recruitment startup. This portal will be used by companies in India and
+                                worldwide for Hiring software engineers, Product Managers, Data Scientist, etc.</p>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://dineshkuddana.github.io/Recruitment-StartUp/" target="_blank"
+                                class="live-link">Live</a>
+                            <a href="https://github.com/DineshKuddana/Recruitment-StartUp" target="_blank"
+                                class="github-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Project Card 3-->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/pet.png" alt="Project 3">
+                    <div class="project-overlay">
+                        <div class="project-details">
+                            <h3>Pet Sitting Services</h3>
+                            <p>Our project is a user-friendly pet sitting services website, connecting pet owners with
+                                professional care. It offers seamless booking for services like pet boarding and
+                                training,
+                                along with team information and a contact form.</p>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://dineshkuddana.github.io/Pet_Sitting_Services/" target="_blank"
+                                class="live-link">Live</a>
+                            <a href="https://github.com/DineshKuddana/Pet_Sitting_Services" target="_blank"
+                                class="github-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Button for More Projects -->
+            <div class="more-projects">
+                <a href="https://github.com/DineshKuddana?tab=repositories" target="_blank"
+                    class="more-projects-link">More Projects</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Contact Section -->
+
+    <section id="contact">
+        <div class="contact-section">
+            <div class="contact-content">
+                <h2 class="contact-heading">Contact Me</h2>
+                <div class="contact-details">
+                    <p>If you're interested in collaborating or have any questions, feel free to reach out:</p>
+                    <p>Email: <a href="mailto:dineshkuddana@gmail.com" class="details">dineshkuddana@gmail.com</a></p>
+                    <p>Phone: <a href="tel:+91 9866563461" class="details">+91 9866563461</a></p>
+
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/dinesh-kuddana-198a0a243/" target="_blank"
+                            class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/DineshKuddana" target="_blank" class="social-icon"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/Dinesh41916" target="_blank" class="social-icon"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="https://twitter.com/Dinesh41916" target="_blank" class="social-icon"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href="https://leetcode.com/u/Dinesh41916/" target="_blank" class="social-icon"><iconify-icon
+                                icon="simple-icons:leetcode"></iconify-icon></a>
+                        <a href="https://www.codechef.com/users/dinesh_41916" target="_blank"
+                            class="social-icon"><iconify-icon icon="simple-icons:codechef"></iconify-icon></a>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form">
+                <h2 class="contact-heading">Get in Touch</h2>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+
+
+
+    <!--Footer Section-->
+
+    <section id="footer">
+        <div class="footer">
+            <p class="copyright">&copy; 2024 Kuddana Dinesh. All rights reserved.</p>
+        </div>
+    </section>
+
+
+
+    <script src="index.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</body>
+
+</html>
